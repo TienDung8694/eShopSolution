@@ -12,5 +12,7 @@ namespace eShopSolution.Data.Entities
         public bool IsSHowOnHome { get; set; }
         public int? ParientId { get; set; }
         public Status Status { get; set; }
+        public List<ProductInCategory> ProductInCategories { get; set; }
+        public List<CategoryTranslation> CategoryTranslations { get; set; }
     }
 }
